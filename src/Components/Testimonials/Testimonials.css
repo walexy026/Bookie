@@ -1,0 +1,7 @@
+.test{
+    width: 300px;
+    display: flex;
+    background: #1ABCCA;
+    margin: 20% auto;
+    /* flex-direction: column; */
+}

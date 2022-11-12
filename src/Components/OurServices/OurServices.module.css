@@ -1,0 +1,76 @@
+.OurServices {
+  padding: 2rem 7.5rem;
+}
+.OurServices h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 40px;
+  color: #595757;
+  text-align: center;
+}
+
+.saveMoney {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  width: 100%;
+
+}
+.saveMoney p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #595757;
+}
+.saveDetails{
+  padding: 1rem 1.5rem;
+  width: 20%;
+}
+.btn {
+  background-color: #1abcca;
+  border: #1abcca;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: #595757;
+  color: #1abcca;
+}
+.buyBooks {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.buyDetails{
+  padding: 1rem 0.1rem;
+  /* width: 20%; */
+
+}
+.buyBooks p {
+  padding-right: 5rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #595757;
+}
+
+@media only screen and (max-width:768px) {
+  .OurServices{
+    padding: 1rem 2rem;
+  }
+  .saveMoney{
+    flex-direction: column;
+  }
+  .buyBooks{
+    flex-direction: column-reverse;
+  }
+  .saveDetails{
+    padding: 1rem 0.1rem;
+    width: 80%;
+  }
+}
